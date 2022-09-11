@@ -629,11 +629,7 @@ h3.h2.section-tax-content {
 
 .daap-link {
     color: #fff;
-    margin: 50px 0;
-}
-
-.daap-link:hover {
-    color: #eb3b84;
+    margin-top: 50px;
 }
 
 /* -----------------------------------*\
