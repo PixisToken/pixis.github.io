@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PIXIS</title>
+        <!-- 
+    - favicon
+  -->
+        <link rel="icon" type="image/png" href="assets/images/favicon.png"/>
+        <!-- 
+    - custom css link
+  -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- 
+    - google font link
+  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
+    </head>
+    <body id="top">
+        <!-- 
+    - #HEADER
+  -->
+        <header class="header" data-header>
+            <div class="dapp-container">
+                <a href="#" class="logo"> <img src="./assets/images/Pixis-100px.png" alt="Pixis logo"> </a>
+                <p class="title">PIXIS&nbsp;</p>
+                <div class="wrapper">
+                    <div class="searchBar">
+                        <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="#Pixis" value=""/>
+                        <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <article>
+                <!-- 
+        - #HERO
+      -->                 
+                <section class="hero" id="home">
+                    <div class="dapp-container-content">
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle1"></div> </h3>
+                            <div class="dapp-count" id="Total1">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 17BNB!</div>
+                            <img src="./assets/images/daap/1.jpg" alt="1" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle2"></div> </h3>
+                            <div class="dapp-count" id="Total2">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 14BNB!</div>
+                            <img src="./assets/images/daap/2.jpg" alt="2" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle3"></div> </h3>
+                            <div class="dapp-count" id="Total3">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 11.7BNB!</div>
+                            <img src="./assets/images/daap/3.jpg" alt="3" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle4"></div> </h3>
+                            <div class="dapp-count" id="Total4">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 9.9BNB!</div>
+                            <img src="./assets/images/daap/4.jpg" alt="4" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle5"></div> </h3>
+                            <div class="dapp-count" id="Total5">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 8.5BNB!</div>
+                            <img src="./assets/images/daap/5.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle6"></div> </h3>
+                            <div class="dapp-count" id="Total6">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 7.5BNB!</div>
+                            <img src="./assets/images/daap/6.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle7"></div> </h3>
+                            <div class="dapp-count" id="Total7">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 7BNB!</div>
+                            <img src="./assets/images/daap/7.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle8"></div> </h3>
+                            <div class="dapp-count" id="Total8">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 6BNB!</div>
+                            <img src="./assets/images/daap/8.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle9"></div> </h3>
+                            <div class="dapp-count" id="Total9">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 6BNB!</div>
+                            <img src="./assets/images/daap/9.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle10"></div> </h3>
+                            <div class="dapp-count" id="Total10">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 5.9BNB!</div>
+                            <img src="./assets/images/daap/10.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle11"></div> </h3>
+                            <div class="dapp-count" id="Total11">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 5BNB!</div>
+                            <img src="./assets/images/daap/11.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle12"></div> </h3>
+                            <div class="dapp-count" id="Total12">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 4BNB!</div>
+                            <img src="./assets/images/daap/12.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle13"></div> </h3>
+                            <div class="dapp-count" id="Total13">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 3.7BNB!</div>
+                            <img src="./assets/images/daap/13.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle14"></div> </h3>
+                            <div class="dapp-count" id="Total14">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 2.8BNB!</div>
+                            <img src="./assets/images/daap/14.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle15"></div> </h3>
+                            <div class="dapp-count" id="Total15">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 1.7BNB!</div>
+                            <img src="./assets/images/daap/15.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle16"></div> </h3>
+                            <div class="dapp-count" id="Total16">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 0.68BNB!</div>
+                            <img src="./assets/images/daap/16.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle17"></div> </h3>
+                            <div class="dapp-count" id="Total17">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 0.19BNB!</div>
+                            <img src="./assets/images/daap/17.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle18"></div> </h3>
+                            <div class="dapp-count" id="Total18">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 0.14BNB!</div>
+                            <img src="./assets/images/daap/18.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle19"></div> </h3>
+                            <div class="dapp-count" id="Total19">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 0.10BNB!</div>
+                            <img src="./assets/images/daap/19.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                        <figure class="daap-hero-banner">
+                            <h3 class="daap-bnb-100"> <div class="circle" id="circle20"></div> </h3>
+                            <div class="dapp-count" id="Total20">+</div>
+                            <div class="rewards-legend">(Likes) *10% (Rate) / $300(BNB) = 0.015BNB!</div>
+                            <img src="./assets/images/daap/20.jpg" alt="5" loading="lazy" class="w-100">
+                            <h3 class="legend-100">
+                                 Posted by @James </h3>
+                        </figure>
+                    </div>
+                </section>
+                <!-- 
+        - #FEATURES
+      -->
+                <section class="features" id="features">
+                    <div class="container" style="background-color: rgb(0,0,0,0.3); padding-bottom:50px;">
+                        <h2 class="h2 section-title">1 - CONNECT YOUR WALLET</h2>
+                        <img src="./assets/images/WalletConnect.png" style="max-height:700px; margin:auto;">
+                    </div>
+                    <div class="container" style="background-color: rgb(0,0,0,0.3); padding-bottom:50px;">
+                        <h2 class="h2 daap-section-title">2 - CREATE YOUR PROFILE</h2>
+                        <div class="container">
+                            <div class="login-form">
+                                <form>
+                                    <div class="content">
+                                        <div class="input-field">
+                                            <input type="username" placeholder="Username" autocomplete="nope">
+                                        </div>
+                                    </div>
+                                    <div class="action">
+                                        <button>Sign in</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 class="h2 section-title">3 - UPLOAD YOUR FIRST PIX!</h2>
+                        <div class="wrapper">
+                            <div class="file-upload">
+                                <input type="file"/>
+                                <i class="fa fa-arrow-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <!-- 
+    - #FOOTER
+  -->
+        <footer class="footer">
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="copyright">&copy; 2022 PIXIS - All Rights Reserved</p>
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://github.com/PixisToken" class="social-link"> <ion-icon name="logo-github"></ion-icon> </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/PixisBSC" class="social-link"> <ion-icon name="logo-twitter"></ion-icon> </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/PixisToken" class="social-link"> <span class="iconify" data-icon="akar-icons:telegram-fill"></span> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- 
+    - #GO TO TOP
+  -->
+        <a href="#top" class="go-top active" data-go-top> <ion-icon name="chevron-up-outline"></ion-icon> </a>
+        <!-- 
+    - ionicon link
+  -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="./assets/js/increment.js"></script>
+        <script src="./assets/js/increment2.js"></script>
+        <script src="./assets/js/increment3.js"></script>
+        <script src="./assets/js/increment4.js"></script>
+        <script src="./assets/js/increment5.js"></script>
+        <script src="./assets/js/increment6.js"></script>
+        <script src="./assets/js/increment7.js"></script>
+        <script src="./assets/js/increment8.js"></script>
+        <script src="./assets/js/increment9.js"></script>
+        <script src="./assets/js/increment10.js"></script>
+        <script src="./assets/js/increment11.js"></script>
+        <script src="./assets/js/increment12.js"></script>
+        <script src="./assets/js/increment13.js"></script>
+        <script src="./assets/js/increment14.js"></script>
+        <script src="./assets/js/increment15.js"></script>
+        <script src="./assets/js/increment16.js"></script>
+        <script src="./assets/js/increment17.js"></script>
+        <script src="./assets/js/increment18.js"></script>
+        <script src="./assets/js/increment19.js"></script>
+        <script src="./assets/js/increment20.js"></script>
+    </body>
+</html>

@@ -47,22 +47,9 @@
     font-size: 1.2em;
 }
 
-h1.h1.daap-section-title {
-    color: #eb3b84;
-    text-align: center;
-    margin-top: 50px;
-    background-color: #fff;
-}
-
 h2.h2.section-title {
     color: #eb3b84;
     text-align: center;
-}
-
-h2.h2.daap-section-title {
-    color: #eb3b84;
-    text-align: center;
-    margin-top: 50px;
 }
 
 h3.h2.section-tax-title {
@@ -625,6 +612,11 @@ h3.h2.section-tax-content {
     font-size: 0.7em;
     font-weight: bold;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.daap-features-list {
+    display: grid;
+    gap: 25px;
 }
 
 /* -----------------------------------*\

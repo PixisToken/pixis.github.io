@@ -47,22 +47,9 @@
     font-size: 1.2em;
 }
 
-h1.h1.daap-section-title {
-    color: #eb3b84;
-    text-align: center;
-    margin-top: 50px;
-    background-color: #fff;
-}
-
 h2.h2.section-title {
     color: #eb3b84;
     text-align: center;
-}
-
-h2.h2.daap-section-title {
-    color: #eb3b84;
-    text-align: center;
-    margin-top: 50px;
 }
 
 h3.h2.section-tax-title {
@@ -619,12 +606,11 @@ h3.h2.section-tax-content {
 
 .rewards-legend {
     position: absolute;
-    bottom: 5%;
-    left: 22%;
+    bottom: 2%;
+    left: 5%;
     transform: translate(-20%, -50%);
     font-size: 0.7em;
     font-weight: bold;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* -----------------------------------*\

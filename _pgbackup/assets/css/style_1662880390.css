@@ -47,24 +47,15 @@
     font-size: 1.2em;
 }
 
-h1.h1.daap-section-title {
-    color: #eb3b84;
-    text-align: center;
-    margin-top: 50px;
-    background-color: #fff;
-}
-
 h2.h2.section-title {
     color: #eb3b84;
     text-align: center;
 }
-
 h2.h2.daap-section-title {
     color: #eb3b84;
     text-align: center;
     margin-top: 50px;
 }
-
 h3.h2.section-tax-title {
     color: #4a00d2;
     text-align: center;
@@ -300,282 +291,255 @@ h3.h2.section-tax-content {
 }
 
 @-webkit-keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
 .circle {
-    position: relative;
-    width: 50px;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    box-shadow: inset 1vmin -1vmin 0vmin 0vmin rgba(255, 0, 36, 0.45), inset -1vmin -1vmin 0vmin 0vmin rgba(255, 252, 0, 0.54), inset 0 1vmin 0vmin 0vmin rgba(0, 255, 216, 0.53), inset -1vmin 1vmin 0vmin 0vmin rgba(0, 251, 0, 0.55), inset 1vmin 1vmin 0vmin 0vmin rgba(255, 0, 162, 0.55), inset 0 -1vmin 0vmin 0vmin rgba(255, 78, 0, 0.54);
-    -webkit-animation: spin 120s linear infinite;
-    animation: spin 120s linear infinite;
+  position: relative;
+  width: 50px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  box-shadow: inset 1vmin -1vmin 0vmin 0vmin rgba(255, 0, 36, 0.45), inset -1vmin -1vmin 0vmin 0vmin rgba(255, 252, 0, 0.54), inset 0 1vmin 0vmin 0vmin rgba(0, 255, 216, 0.53), inset -1vmin 1vmin 0vmin 0vmin rgba(0, 251, 0, 0.55), inset 1vmin 1vmin 0vmin 0vmin rgba(255, 0, 162, 0.55), inset 0 -1vmin 0vmin 0vmin rgba(255, 78, 0, 0.54);
+  -webkit-animation: spin 120s linear infinite;
+          animation: spin 120s linear infinite;
 }
-
 .circle:active {
-    box-shadow: inset 3vmin -1vmin 0vmin 0vmin rgba(255, 0, 36, 0.45), inset -3vmin -1vmin 0vmin 0vmin rgba(255, 252, 0, 0.54), inset 0 3vmin 0vmin 0vmin rgba(0, 255, 216, 0.53), inset -3vmin 1vmin 0vmin 0vmin rgba(0, 251, 0, 0.55), inset 3vmin 1vmin 0vmin 0vmin rgba(255, 0, 162, 0.55), inset 0 -3vmin 0vmin 0vmin rgba(255, 78, 0, 0.54);
+  box-shadow: inset 3vmin -1vmin 0vmin 0vmin rgba(255, 0, 36, 0.45), inset -3vmin -1vmin 0vmin 0vmin rgba(255, 252, 0, 0.54), inset 0 3vmin 0vmin 0vmin rgba(0, 255, 216, 0.53), inset -3vmin 1vmin 0vmin 0vmin rgba(0, 251, 0, 0.55), inset 3vmin 1vmin 0vmin 0vmin rgba(255, 0, 162, 0.55), inset 0 -3vmin 0vmin 0vmin rgba(255, 78, 0, 0.54);
 }
-
 .circle:before {
-    content: "";
-    display: block;
-    padding-top: 100%;
+  content: "";
+  display: block;
+  padding-top: 100%;
 }
-
-.daap-bnb-100 {
+.daap-bnb-100{
     position: absolute;
     bottom: 10%;
     left: 90%;
     transform: translate(-20%, -50%);
     width: 200px;
 }
-
-.daap-bnb-100-text {
+.daap-bnb-100-text{
     position: absolute;
     bottom: 17%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
-}
 
-#Total1 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+}
+#Total1{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total2 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total2{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total3 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total3{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total4 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total4{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total5 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total5{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total6 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total6{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total7 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total7{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total8 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total8{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total9 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total9{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total10 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total10{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total11 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total11{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total12 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total12{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total13 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total13{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total14 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total14{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total15 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total15{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total16 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total16{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total17 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total17{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total18 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total18{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total19 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total19{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
-#Total20 {
-    font-weight: 900;
-    font-size: 70px;
-    position: absolute;
+#Total20{
+  font-weight: 900;
+  font-size: 70px;
+  position: absolute;
     bottom: 20%;
     left: 20%;
     transform: translate(-20%, -50%);
     font-size: 1.5em;
     font-weight: bold;
 }
-
 .dapp-count {
     border: none;
     outline: none;
@@ -591,7 +555,7 @@ h3.h2.section-tax-content {
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
     top: -2px;
-    left: -2px;
+    left:-2px;
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
@@ -604,21 +568,12 @@ h3.h2.section-tax-content {
 }
 
 @keyframes glowing {
-    0% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 400% 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
 }
-
-.rewards-legend {
-    position: absolute;
+.rewards-legend{
+  	position: absolute;
     bottom: 5%;
     left: 22%;
     transform: translate(-20%, -50%);
@@ -626,6 +581,7 @@ h3.h2.section-tax-content {
     font-weight: bold;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
 
 /* -----------------------------------*\
   #RESET
