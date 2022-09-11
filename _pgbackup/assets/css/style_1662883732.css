@@ -869,7 +869,6 @@ body {
   #HERO
 \*----------------------------------- */
 .hero {
-    background-image: url("/assets/images/Gallery-Background.png");
     background-color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
